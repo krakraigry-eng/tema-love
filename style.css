@@ -2,15 +2,13 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 20px;
-    background-color: f4f4f4;
+
+    background-color: #83858b;
 }
-h1 {
-    color: #2c3e50;
-    text-align: center;
-}
+
+
 a {
-    background-color: #3596d7;
+    background-color: red;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -19,5 +17,16 @@ a {
     text-decoration: none;
 }
 a:hover {
-    background-color: #2980b9;
+    background-color: #9a0b0b;
+}
+.btnHeaderControl {
+    display: flex;
+   
+    margin-top: 20px;
+}
+header {
+    background-color: #3a3a3b;
+    color: white;
+   text-align: center;
+    box-shadow: #4b4b4c;
 }
