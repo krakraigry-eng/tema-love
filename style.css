@@ -1,7 +1,5 @@
 body {
-   
     line-height: 1.6;
-   
     background-color: #83858b;
 }
 
@@ -33,6 +31,5 @@ aside {
     height: 100%;
     width: 400px;
     color: white;
-    text-align: left;
     box-shadow: #4b4b4c;
 }
