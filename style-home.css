@@ -79,22 +79,6 @@ body {
     
 }
 
-.img-Lenin {
-    height: 340px;
-    width: 250px;
-    background-position: center;
-    border: black ridge 5px;
-    background-image: url('images.jpg');
-}
-
-.img-Lenin:hover {
-    height: 340px;
-    width: 250px;
-    background-position: center;
-    border: black ridge 5px;
-    background-image: url(images2.png);
-}
-
 @media (max-width: 768px) {
     body {
     line-height: 1.6;
