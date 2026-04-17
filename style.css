@@ -67,16 +67,78 @@ body {
 }
 
 
-.dynamicContent {
+.LeninContent {
+    display: block;
     margin-left: 320px;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #0e273f;
     width: 80%;
     height: 100vh;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.orentationOnInformation {
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.itemLenin {
+    text-align: center;
+    border: none;
+    background-color: #636262;
+    border-radius: 8px;    
+     text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.img-small-Lenin{
+    width: 20%;
+    margin: 0 15px 15px 0;
+    float: right;
+    max-width: 200px;     
+    height: auto; 
+}
+
+.lenin-small-photo-some{
+    display: grid;     
+    grid-template-columns: 1fr 1fr 1fr;  
+
+}
+
+.img-small-Lenin-some{
+
+    margin: 0 auto;
+    width: 90%;
+    margin: 0 15px 15px 0;
+    max-width: 200px;     
+    height: auto;
+}
 
 
-    
+.itemLenin:hover {
+    transform: scale(1.03); /* Увеличение на 20% */
+    background-color: #4b4b4b; /* Изменение цвета */
+}
+
+.smallLenin{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.revolution-action{
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .img-Lenin {
@@ -87,12 +149,22 @@ body {
     background-image: url('images.jpg');
 }
 
+section {
+    height: 600px;
+}
+
 .img-Lenin:hover {
     height: 340px;
     width: 250px;
     background-position: center;
     border: black ridge 5px;
     background-image: url(images2.png);
+}
+
+
+p {
+    margin-top: 30px;   /* отступ сверху */
+    margin-bottom: 30px; /* отступ снизу */
 }
 
 @media (max-width: 768px) {
