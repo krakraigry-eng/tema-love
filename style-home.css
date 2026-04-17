@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-y: scroll;
-    overflow-x: fixed;
+    overflow-x: hidden;
     display: flex;
     
 
@@ -78,6 +78,77 @@ body {
 
     
 }
+
+.random-fact {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c7ffa4;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+    width: 70%;
+    text-align: center;
+    height: 280px;
+}
+
+.random-fact button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff1919;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.img-Lenin {
+    height: 340px;
+    width: 250px;
+    background-position: center;
+    border: black ridge 5px;
+    background-image: url('images.jpg');
+}
+
+.historical-bad-person {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #484848;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+    overflow-y: auto;
+}
+
+ .bad-person-list{
+    list-style-type: none;
+}
+
+.bad-person{
+    text-decoration: none;
+    color: #6583a1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+
+
+}
+
+.bad-person-list li:hover {
+    color: #ff0000;
+    transform: translateX(5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #494949;
+    
+}
+
+
+
 
 @media (max-width: 768px) {
     body {

@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-y: scroll;
-    overflow-x: fixed;
+    overflow-x: hidden;
     display: flex;
     
 
@@ -87,16 +87,14 @@ body {
     gap: 20px;
 }
 
-ul {
-    list-style-type: none;
-}
+
 
 .itemLenin {
     text-align: center;
     border: none;
     background-color: #636262;
     border-radius: 8px;    
-     text-decoration: none;
+    text-decoration: none;
     color: black;
     font-weight: 500;
     padding: 5px;
