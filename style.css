@@ -120,10 +120,30 @@ ul {
 
     margin: 0 auto;
     width: 90%;
-    margin: 0 15px 15px 0;
     max-width: 200px;     
     height: auto;
 }
+
+.legacy-lenin-some{
+    display: grid;     
+    grid-template-columns: 1fr 1fr 1fr;  
+    gap: 20px;
+}
+.legacy-lenin-some-img{
+    width: 60%;
+    height: 80%;
+}
+
+.personal-lenin{
+    width: 50%;
+    float: left;
+}
+
+.death-lenin{
+    width: 50%;
+    float: right;
+}
+
 
 
 .itemLenin:hover {
@@ -139,6 +159,27 @@ ul {
 .revolution-action{
     font-size: 24px;
     font-weight: 500;
+}
+
+
+
+.revolution-action-lenin-iskra{
+    width: 70%;  
+    border: #0e273f ridge 15px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.revolution-action-lenin-and{
+    width: 40%;  
+    float: left;  
+    height: auto;
+}
+
+.revolution-action-lenin-news{
+    width: 50%;  
+    float: right;  
+    height: auto;
 }
 
 .img-Lenin {
@@ -161,10 +202,28 @@ section {
     background-image: url(images2.png);
 }
 
+.coup-stalin {
+    width: 50%;
+    float: left;
+}
+.coup-hah {
+    width: 50%;
+    float: right;
+}
+
+.mini-title {
+    font-size: 40px;
+    font-weight: 750;
+    color: #0c0922;
+}
 
 p {
-    margin-top: 30px;   /* отступ сверху */
-    margin-bottom: 30px; /* отступ снизу */
+    margin: 0 auto;
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    width: 50%;
+    text-align: center;
+    font-family: сursive;
 }
 
 @media (max-width: 768px) {
